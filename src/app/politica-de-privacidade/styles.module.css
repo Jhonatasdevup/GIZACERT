@@ -1,0 +1,46 @@
+/* components/PoliticaPrivacidade/styles.module.css */
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  color: #444;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.container h2 {
+  color: #4b0082;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.container h3 {
+  color: #6a0dad;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.container p,
+.container li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container a {
+  color: #4b0082;
+  text-decoration: underline;
+}
+
+.container ul,
+.container ol {
+  padding-left: 1.5rem;
+}
+
+.container ul li,
+.container ol li {
+  margin-bottom: 0.5rem;
+}

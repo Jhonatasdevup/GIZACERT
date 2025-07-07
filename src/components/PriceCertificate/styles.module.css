@@ -1,0 +1,62 @@
+.sectionMain {
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.sectionMain h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sectionMain h2 span {
+  color: #5B00D6;
+  font-weight: 600;
+}
+
+.divBoxs {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+  margin-top: 3rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 60px;
+}
+
+.qualities {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.qualities li {
+  display: flex;
+  align-items: center;
+  font-size: 0.97rem;
+  color: #2a2343;
+  background: #f5eafe;
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  font-weight: 500;
+  gap: 0.5rem;
+}
+
+.qualityIcon {
+  color: #8e24aa;
+}
+.oldPrice {
+  color: #aaa;
+  font-size: 0.9em;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,117 @@
+.hero {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #004aad 0%, #cb6ce6 100%);
+  color: white;
+  height: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 2rem 1rem;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 600px;
+  gap: 20px;
+  text-align: left;
+}
+
+.titleH1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.titleH1 span {
+  color: #a6c8ff;
+}
+
+.p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btt {
+  background-color: white;
+  color: #3c45cc;
+  max-width: 170px;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btt:hover {
+  background-color: #e0e0e0;
+}
+
+.imageWrapper {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+/* ------------------ TABLET ------------------ */
+@media screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .titleH1 {
+    font-size: 2rem;
+  }
+
+  .p {
+    font-size: 1rem;
+  }
+}
+
+/* ------------------ CELULAR ------------------ */
+@media screen and (max-width: 600px) {
+  .titleH1 {
+    font-size: 1.8rem;
+  }
+
+  .p {
+    font-size: 0.95rem;
+  }
+
+  .btt {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .image {
+    max-width: 300px;
+  }
+}

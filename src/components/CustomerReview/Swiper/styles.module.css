@@ -1,0 +1,89 @@
+.testimonialsSection {
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem 1rem;
+}
+
+.card {
+  background: linear-gradient(135deg, #a44ede 0%, #c285ff 100%);
+  padding: 2rem 1.5rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 290px;
+  width: 100%; /* ❗ GARANTE QUE O SLIDE OCUPE 100% NO MOBILE */
+  box-sizing: border-box;
+}
+.swiper {
+  width: 100%; /* ❗ Garante que o Swiper ocupe o container corretamente */
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.card h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.1rem;
+  color: #fff;
+}
+
+.card span {
+  font-size: 0.9rem;
+  color: #f4eaff;
+}
+
+.quote {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.quote::before {
+  content: "“";
+  font-size: 2rem;
+  color: #3c0087;
+  position: absolute;
+  left: 0;
+  top: -10px;
+}
+
+/* Swiper buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #4b0082;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #f2f2f2;
+}
+
+/* Responsivo: Esconde setas no celular */
+@media screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}

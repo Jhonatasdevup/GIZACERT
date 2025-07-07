@@ -1,0 +1,116 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  max-width: 1200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: #845ef7;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #6200ea;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.navLink{
+  font-size: 1.22rem;
+  color: #6200ea;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #3700b3;
+}
+
+
+.menuIconMobile {
+  display: none;
+  cursor: pointer;
+  color: #6200ea;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100vh;
+  background: white;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mobileMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobileMenu li {
+  font-size: 1.2rem;
+}
+
+.closeIcon {
+  align-self: flex-end;
+  cursor: pointer;
+  color: #6200ea;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .menuIconMobile {
+    display: block;
+  }
+
+  .header {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+}

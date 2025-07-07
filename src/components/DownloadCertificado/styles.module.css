@@ -1,0 +1,95 @@
+.sectionMain {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.divLinkDownload {
+  background-color: #5e17eb;
+  padding: 2rem;
+  text-align: center;
+  max-width: 500px;
+  border-radius: 20px;
+  color: white;
+  -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+  -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+}
+.divLinkDownload h3 {
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.divLinkDownload h4 {
+  font-weight: normal;
+  font-size: 2.45rem;
+  margin: 0;
+}
+.divBTT {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.divBTT div {
+  border: 1px rgba(255, 255, 255, 0.325) solid;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.divBTT div p {
+  line-height: 22px;
+}
+
+.divBTT div:hover {
+  background-color: #722ff7;
+  transform: translateY(-5px);
+}
+
+.divVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.663);
+  padding: 2.6rem;
+  text-align: center;
+  max-width: 500px;
+  border-radius: 20px;
+  color: white;
+  -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+  -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+.divVideo h3 {
+  font-weight: normal;
+  font-size: 2.8rem;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.divVideo div {
+  width: 300px;
+  height: auto;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .sectionMain {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
