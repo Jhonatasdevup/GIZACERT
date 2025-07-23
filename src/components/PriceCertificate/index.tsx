@@ -6,8 +6,8 @@ export default function PriceCertificate() {
   const dataBoxPrice = [
     {
       name: 'e-CPF A1',
-      price: 79,
-      oldPrice: 99,
+      price: 90,
+      oldPrice: 120,
       duration: "4 meses",
       type: "Para pessoa física",
       storage: "computador",
@@ -18,8 +18,8 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CPF A1',
-      price: 159,
-      oldPrice: 199,
+      price: 130,
+      oldPrice: 200,
       duration: "1 ano",
       type: "Para pessoa física",
       storage: "computador",
@@ -30,8 +30,8 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CNPJ A1',
-      price: 189,
-      oldPrice: 239,
+      price: 150,
+      oldPrice: 240,
       duration: "1 ano",
       type: "Para empresas",
       storage: "computador",
@@ -42,7 +42,7 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CPF A3',
-      price: 310,
+      price: 280,
       oldPrice: 360,
       duration: "3 anos",
       type: "Para pessoa física",
@@ -54,7 +54,7 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CNPJ A3',
-      price: 330,
+      price: 290,
       oldPrice: 380,
       duration: "3 anos",
       type: "Para empresas",

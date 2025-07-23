@@ -44,10 +44,11 @@ export default function Header() {
             <CloseIcon fontSize="large" />
           </div>
           <ul>
+            <Image alt="giza cert" src="/gz.png" width={100} height={70} style={{height: 115}}/>
             {menuLi.map((item, index) => (
-              <li key={item + index}>
+              <li key={item + index} style={{marginTop:25}}>
                 <Link
-                  href={`#${item}`}
+                  href={item === "SUPORTE" ? "https://wa.me/5512991988280?text=Ol%C3%A1%2C+preciso+de+ajuda+com+meu+certificado." :`#${item}`}
                   className={styles.navLink}
                   onClick={() => setMenuOpen(false)}
                 >

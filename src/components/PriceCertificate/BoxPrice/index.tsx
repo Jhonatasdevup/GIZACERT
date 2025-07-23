@@ -51,7 +51,8 @@ export default function BoxPrice(props: BoxPriceProps) {
         <p className={styles.text}>Válido por {duration}</p>
       </div>
       <h5 className={styles.price}>
-        <span className={styles.oldPrice}>R${oldPrice},00</span> R$<span>{price}</span>,00
+        <span className={styles.oldPrice}>R${oldPrice}</span><br/>
+        <span className={styles.newPrice}><span style={{fontSize: 25}}>R$</span>{price}</span>
       </h5>
       <Link target="_blank" href={`https://wa.me/5512991988280?text=Olá%2C%20vi%20o%20certificado%20${name}%20no%20site%20e%20quero%20saber%20como%20posso%20adquirir.`}>
         <button className={styles.button}>Comprar</button>

@@ -55,6 +55,8 @@ box-shadow: 3px 3px 10px 3px #dddddd;
   color: #333;
 }
 
+
+
 .price span {
   font-size: 2.2rem;
   margin-left: 0.25rem;
@@ -109,5 +111,10 @@ box-shadow: 3px 3px 10px 3px #dddddd;
   color: #aaa;
   font-size: 0.9em;
   text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+.newPrice{
+  color: #aaa;
+  font-size: 0.9em;
   margin-right: 0.5rem;
 }
