@@ -6,11 +6,12 @@ export default function PriceCertificate() {
   const dataBoxPrice = [
     {
       name: 'e-CPF A1',
-      price: 90,
+      price: 65,
       oldPrice: 120,
       duration: "4 meses",
       type: "Para pessoa física",
       storage: "computador",
+      haveFrete: false,
       qualities: [
         { icon: "security", text: "Segurança ICP-Brasil" },
         { icon: "access_time", text: "Pronto em até 1h útil" },
@@ -18,11 +19,12 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CPF A1',
-      price: 130,
+      price: 85,
       oldPrice: 200,
       duration: "1 ano",
       type: "Para pessoa física",
       storage: "computador",
+      haveFrete: false,
       qualities: [
         { icon: "security", text: "Segurança ICP-Brasil" },
         { icon: "access_time", text: "Pronto em até 1h útil" },
@@ -30,11 +32,12 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CNPJ A1',
-      price: 150,
+      price: 99,
       oldPrice: 240,
       duration: "1 ano",
       type: "Para empresas",
       storage: "computador",
+      haveFrete: false,
       qualities: [
         { icon: "security", text: "Segurança ICP-Brasil" },
         { icon: "access_time", text: "Pronto em até 1h útil" },
@@ -42,11 +45,12 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CPF A3',
-      price: 280,
+      price: 240,
       oldPrice: 360,
       duration: "3 anos",
       type: "Para pessoa física",
       storage: "Token",
+      haveFrete: true,
       qualities: [
         { icon: "security", text: "Segurança ICP-Brasil" },
         { icon: "access_time", text: "Emissão rápida" },
@@ -54,11 +58,12 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CNPJ A3',
-      price: 290,
+      price: 240,
       oldPrice: 380,
       duration: "3 anos",
       type: "Para empresas",
       storage: "Token",
+      haveFrete: true,
       qualities: [
         { icon: "security", text: "Segurança ICP-Brasil" },
         { icon: "access_time", text: "Emissão rápida" },
