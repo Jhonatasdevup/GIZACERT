@@ -29,7 +29,7 @@ export default function Header() {
         <ul>
           {menuLi.map((item, index) => (
             <li key={item + index}>
-              <Link href={item === "SUPORTE" ? "https://wa.me/5512991988280?text=Ol%C3%A1%2C+preciso+de+ajuda+com+meu+certificado." :`#${item}`} className={styles.navLink} target="_blank">
+              <Link href={item === "SUPORTE" ? "https://wa.me/5512991988280?text=Ol%C3%A1%2C+preciso+de+ajuda+com+meu+certificado." :`#${item}`} className={styles.navLink} target={item === "SUPORTE" ? "_blank" : "" }>
                 {item} <KeyboardArrowDownIcon fontSize="large" />
               </Link>
             </li>
