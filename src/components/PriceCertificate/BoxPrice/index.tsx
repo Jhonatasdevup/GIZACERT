@@ -8,7 +8,8 @@ import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import Link from "next/link";
 
 type QualityType = {
-  icon: "security" | "access_time" | "local_offer";
+  icon: "security" | "access_time" | "local_offer"; 
+  
   text: string;
 };
 
