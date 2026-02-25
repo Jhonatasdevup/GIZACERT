@@ -5,12 +5,12 @@ import BoxPrice from './BoxPrice'
 export default function PriceCertificate() {
   const dataBoxPrice = [
     {
-      name: 'e-CPF A1',
-      price: 65,
-      oldPrice: 120,
+      name: 'E-CPF A3 (nuvem)',
+      price: 69,
+      oldPrice: 140,
       duration: "4 meses",
       type: "Para pessoa física",
-      storage: "computador",
+      storage: "computador e no celular",
       haveFrete: false,
       qualities: [
         { icon: "security", text: "Segurança ICP-Brasil" },
@@ -19,7 +19,7 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CPF A1',
-      price: 85,
+      price: 99,
       oldPrice: 200,
       duration: "1 ano",
       type: "Para pessoa física",
@@ -32,7 +32,7 @@ export default function PriceCertificate() {
     },
     {
       name: 'e-CNPJ A1',
-      price: 99,
+      price: 119,
       oldPrice: 240,
       duration: "1 ano",
       type: "Para empresas",
