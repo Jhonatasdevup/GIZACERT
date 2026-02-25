@@ -33,7 +33,7 @@ const iconMap = {
 export default function BoxPrice(props: BoxPriceProps) {
   const { name, price, oldPrice, duration, type, storage, qualities, haveFrete } = props;
   return (
-    <div className={styles.divMain}>
+    <section className={styles.divMain}>
       <h3 className={styles.title}>{name}</h3>
       <Divider sx={{ width: '100%' }} />
       <p className={styles.subTitle}>{type}</p>
@@ -60,6 +60,6 @@ export default function BoxPrice(props: BoxPriceProps) {
       <Link target="_blank" href={`https://wa.me/5512991988280?text=Olá%2C%20vi%20o%20certificado%20${name}%20no%20site%20e%20quero%20saber%20como%20posso%20adquirir.`}>
         <button className={styles.button}>Comprar</button>
       </Link>
-    </div>
+    </section>
   );
 }
